@@ -78,7 +78,7 @@ public class ClusteringDataFromLucene
         final Map<String, Object> luceneGlobalAttributes = new HashMap<String, Object>();
 
         //String indexPath = "/home/serendio/amc_dev/data/index";
-        String serviceUrlBase = "http://178.63.22.132:8983/solr/amc_dev/select";
+        String serviceUrlBase = "Your solr source Url";
 //        if (args.length == 1)
 //        {
 //        	serviceUrlBase = args[0];
@@ -154,7 +154,7 @@ public class ClusteringDataFromLucene
         
         //ConsoleFormatter.displayResults(process);
         
-        Writer writer =new FileWriter("/home/serendio/Desktop/Lingo"+input+".json");
+        Writer writer =new FileWriter("/home/ram/Desktop/Lingo"+input+".json");
         result.serializeJson(writer);
         
     }
